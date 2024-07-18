@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+
+body{
+    padding: 8%;
+    background-color:rgb(252, 254, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1{
+    margin-bottom: 60px;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    font-size: 70px;
+    font-weight: bolder;
+}
+a{
+    color: black;
+    text-decoration: solid ;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+}.nav2{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 30px,60px;
+    height: 5rem;
+    font-size: 40%;
+    font-weight: normal;
+}
+.h1{
+    color: black;
+    display: flex;
+}
+button{
+    background-color: red;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif ; ;
+    padding:0.9rem ;
+    padding-top: 1rem;
+    padding-left: 2rem 2rem;
+}
+.subtopic{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    justify-content: center ;
+    border-bottom: 1px;
+}
+
+
+
+.title{
+    color: black;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 400%;
+    flex-direction: row-reverse;
+    
+}
+.number{
+    color: orangered;
+    font-size: xxx-large;
+    font-weight: bolder;
+    display: flex;
+}
+h6{
+    color: gold;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.parent{
+    display: flex;
+    margin-top:3rem;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    
+}
+.image{
+    display: flex;
+    gap: 1rem ;
+
+
+}
+.father{
+    padding-top: 10px;
+    flex-direction: column;
+    gap: 4rem;
+    width: auto;
+    height: auto;
+}
+.father2{
+    background-color: rgb(4, 4, 16);
+    padding: 3rem;
+    padding-top:2rem ;
+    gap: 10%;
+    justify-content: space-between;
+    
+    
+}
+.grandfather {
+    display: flex;
+    width:auto;     
+    height:auto;
+    justify-content: left;  
+}
+.father1{
+    display: flex; 
+    padding-top: 1rem; 
+    width: 100%;
+    height: 100%;
+}
+.greatest{
+    color: rgb(145, 181, 181);
+    padding-right: 0.1rem;
+    height: 36rem;
+    border-bottom: 1px;
+    padding-top: 3%;
+}
+
+
+.bottom{
+    border-bottom: 2px solid gray;
+}
+.text{
+    padding-right: 5rem;
+}
+.pan{
+    padding-top: 1rem;
+}
+.image1{
+width: auto;;  
+}
+
+
+@media screen and (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+    }
+
+    .father1{
+        flex-direction: column;
+    }
+    .grandfather{
+        flex-direction: column;
+    }
+
+}
